@@ -1,0 +1,3967 @@
+/* -------------------------------------------------------------
+  Sass CSS3 Mixins! The Cross-Browser CSS3 Sass Library
+  By: Matthieu Aussaguel, http://www.mynameismatthieu.com, @matthieu_tweets
+
+  List of CSS3 Sass Mixins File to be @imported and @included as you need
+
+  The purpose of this library is to facilitate the use of CSS3 on different browsers avoiding HARD TO READ and NEVER
+  ENDING css files
+
+  note: All CSS3 Properties are being supported by Safari 5
+  more info: http://www.findmebyip.com/litmus/#css3-properties
+
+------------------------------------------------------------- */
+/* line 11, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+/* line 21, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+p {
+  margin: 0 0 10px;
+}
+
+/* line 24, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+h1,
+.h1 {
+  font-size: 36px;
+}
+
+/* line 28, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+h2,
+.h2 {
+  font-size: 30px;
+}
+
+/* line 32, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+h3,
+.h3 {
+  font-size: 24px;
+}
+
+/* line 36, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+h4,
+.h4 {
+  font-size: 18px;
+}
+
+/* line 40, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+h5,
+.h5 {
+  font-size: 14px;
+}
+
+/* line 44, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+h6,
+.h6 {
+  font-size: 12px;
+}
+
+/* line 48, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.collapse {
+  display: none;
+}
+
+/* line 51, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.collapse.in {
+  display: block;
+}
+
+/* line 55, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.form-inline .form-group {
+  display: inline-block;
+}
+
+/* line 58, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.nav-tabs {
+  border: 0 none;
+}
+
+/* line 61, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.breadcrumb {
+  padding: 8px 15px;
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+/* line 66, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.modal {
+  z-index: 99999;
+}
+
+/* line 69, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.breadcrumb > li {
+  display: inline-block;
+}
+
+/* line 72, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.breadcrumb > li + li:before {
+  padding: 0 5px;
+  color: #ffff;
+  content: "/\00a0";
+}
+
+/* line 78, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+/* line 91, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 94, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 97, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 100, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.text-justify {
+  text-align: justify;
+}
+
+/* line 103, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.text-nowrap {
+  white-space: nowrap;
+}
+
+/* line 106, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+/* line 109, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/* line 112, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+/* line 115, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+h2 {
+  color: #1976d2;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* line 121, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+i {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 125, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+label {
+  font-weight: normal;
+}
+
+/* line 128, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.btn {
+  font-weight: 700;
+  background-color: #1976d2;
+  color: #ffffff;
+  /*&:hover{
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15);
+  }*/
+}
+
+/* line 136, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.select.input-sm {
+  height: 44px;
+}
+
+/* line 139, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.modal-content {
+  -webkit-border-radius: 9px;
+  -khtml-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+  border-radius: 9px;
+}
+
+/* line 143, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.container {
+  width: 100%;
+  max-width: 1170px;
+}
+
+/* line 147, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.btn {
+  background-color: #1976d2;
+}
+/* line 149, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.btn:hover {
+  background-color: #1669bb;
+  color: #ffffff;
+}
+
+/* line 155, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.center-align {
+  width: 87%;
+  margin: 0 auto;
+}
+
+/* line 159, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 163, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+ul {
+  padding: 0;
+  margin: 0;
+}
+/* line 166, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+ul li {
+  list-style: none;
+}
+
+/* line 170, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.waiting {
+  color: #ff7200;
+}
+
+/* line 173, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.expired {
+  color: #ff0000;
+}
+
+/* line 176, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.published {
+  color: #1976d2;
+}
+
+/* line 179, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #343434;
+  background-color: #fff;
+}
+
+/* line 186, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.form-control {
+  font-size: 14px;
+  color: #343434;
+  width: 100%;
+}
+
+/* line 191, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+sup {
+  color: #ff0000;
+}
+
+/* line 194, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.btn {
+  font-size: 14px;
+  border: 0 none;
+}
+
+/* line 198, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.is-fileinput {
+  margin-top: 20px;
+}
+
+/* line 202, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 206, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pos-abs {
+  position: absolute;
+}
+
+/* line 209, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pos-relative {
+  position: relative;
+}
+
+/* line 212, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.bg-prop {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 216, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.rounded-overlay, .create-deal-main .content, .inner-block .content, .create-deal-main.editPersonalInfoMain .inner-content-main, .inner-block.editPersonalInfoMain .inner-content-main, .create-deal-main.manageDealsMain .manageDealsData, .inner-block.manageDealsMain .manageDealsData, .create-deal-main.manageDealsMain .inner-content-main, .inner-block.manageDealsMain .inner-content-main, .create-deal-main .editManageDealForm .center-align, .inner-block .editManageDealForm .center-align, .create-deal-main.merchant-hub-reports .reports-data-main, .inner-block.merchant-hub-reports .reports-data-main, .create-deal-main.rechargeWalletMain .inner-content-main, .inner-block.rechargeWalletMain .inner-content-main, .createStoreForm, .dashboard-main.dashboard-main .dimmerReviewMain .inner-content-main, .dashboard-main.dashboard-main .faq-dashboard .inner-content-main, .dashboard-main.dashboard-main .walletHistory .inner-content-main {
+  -webkit-border-radius: 7px;
+  -khtml-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin-top: -70px;
+  background-color: #ffffff;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+/* line 224, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.container-inner {
+  padding: 35px 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* line 229, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.font-size-14 {
+  font-size: 14px;
+}
+
+/* line 232, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.font-size-18 {
+  font-size: 18px;
+}
+
+/* line 235, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.font-size-16 {
+  font-size: 16px;
+}
+
+/* line 238, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.img-center {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 242, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.no-border {
+  border: 0 none;
+}
+
+/* line 245, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+label {
+  margin-bottom: 10px;
+}
+
+/* line 248, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.submit-btn {
+  height: 45px;
+  line-height: 45px;
+  display: inline-block;
+  width: 277px;
+  text-align: center;
+  background-color: #1976d2;
+  color: #ffffff;
+  font-weight: 600;
+  border: 0 none;
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 260, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.submit-btn:focus {
+  color: #ffffff;
+}
+
+/* line 264, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.form-group btn.disabled, .form-group .btn[disabled], .form-group fieldset[disabled] .btn, .form-group .disabled {
+  cursor: not-allowed;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  opacity: .65;
+}
+
+/* line 273, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.btn-red {
+  background-color: #d84541;
+}
+
+/* line 276, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.btn-grey {
+  display: inline-block;
+  background-color: #808080 !important;
+  vertical-align: middle;
+  color: #ffffff;
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 283, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.btn-grey:hover, .btn-grey:focus {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #808080;
+}
+
+/* all padding classes */
+/* line 292, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.padding0 {
+  padding: 0;
+}
+
+/* line 295, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.no-padding-top {
+  padding-top: 0;
+}
+
+/* line 298, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 302, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.no-padding-left {
+  padding-left: 0;
+}
+
+/* line 305, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.no-padding-right {
+  padding-right: 0 !important;
+}
+
+/* line 308, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pad-tb-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* line 312, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pad-tb-35 {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+/* line 316, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pad-tb-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 320, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pad-all-35, .create-deal-main .manageProfileTabs .tab-content, .inner-block .manageProfileTabs .tab-content {
+  padding: 35px;
+}
+
+/* line 323, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pad-all-15 {
+  padding: 15px;
+}
+
+/* line 326, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pad-all-20 {
+  padding: 20px;
+}
+
+/* line 329, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pad-tb-10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 333, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pad-top-20 {
+  padding-top: 20px;
+}
+
+/* line 336, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.padding-top-15 {
+  padding-top: 15px;
+}
+
+/* line 339, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pad-top-40 {
+  padding-top: 40px;
+}
+
+/* line 342, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.margin0 {
+  margin: 0;
+}
+
+/* line 345, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.no-margin-top {
+  margin-top: 0 !important;
+}
+
+/* line 348, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.no-margin {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 352, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+
+/* line 355, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.no-margin-left {
+  margin-left: 0;
+}
+
+/* line 358, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.no-margin-right {
+  margin-right: 0;
+}
+
+/* line 361, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.margin-top-5 {
+  margin-top: 5px !important;
+}
+
+/* line 364, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+/* line 367, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.margin-top-15 {
+  margin-top: 15px;
+}
+
+/* line 370, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+/* line 373, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+/* line 376, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.margin-top-25 {
+  margin-top: 25px;
+}
+
+/* line 379, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.margin-top-45 {
+  margin-top: 45px;
+}
+
+/* line 382, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.margin-bottom-5 {
+  margin-bottom: 5px;
+}
+
+/* line 385, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+/* line 388, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.margin-bottom-15 {
+  margin-bottom: 15px;
+}
+
+/* line 391, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.margin-bottom-20 {
+  margin-bottom: 20px !important;
+}
+
+/* line 394, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.margin-bottom-25 {
+  margin-bottom: 25px;
+}
+
+/* line 397, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
+
+/* line 400, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.margin-right-5 {
+  margin-right: 5px;
+}
+
+/* line 403, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.margin-right-15 {
+  margin-right: 15px;
+}
+
+/* line 406, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.margin-bottom-100 {
+  margin-bottom: 100px;
+}
+
+/* line 409, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.margin-tb-45 {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+/* line 413, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.margin-tb-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 417, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.margin-lr-10 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* border classes */
+/* line 422, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.border-none {
+  border: none;
+}
+
+/* line 425, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.border-bottom {
+  border-bottom: 1px solid #ddd;
+}
+
+/* display */
+/* line 429, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.display-block {
+  display: block;
+}
+
+/* line 432, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.display-none {
+  display: none;
+}
+
+/* line 435, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.display-inline {
+  display: inline-block;
+}
+
+/* line 439, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.error-msg {
+  display: block;
+  color: #ff0000;
+  width: 100%;
+  font-size: 11px;
+}
+
+/*css for pagination */
+/* line 447, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pagination {
+  display: inline-block;
+  padding-left: 0;
+  margin: 20px 0;
+  border-radius: 4px;
+}
+
+/* line 453, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pagination > li {
+  display: inline;
+}
+
+/* line 456, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 6px 12px;
+  margin-left: -1px;
+  line-height: 1.42857143;
+  color: #337ab7;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+/* line 468, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+  margin-left: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+/* line 474, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+/* line 479, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  z-index: 2;
+  color: #23527c;
+  background-color: #eee;
+  border-color: #ddd;
+}
+
+/* line 488, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  z-index: 3;
+  color: #fff;
+  cursor: default;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+
+/* line 500, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+  color: #777;
+  cursor: not-allowed;
+  background-color: #fff;
+  border-color: #ddd;
+}
+
+/* line 511, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pagination-lg > li > a,
+.pagination-lg > li > span {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+}
+
+/* line 517, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pagination-lg > li:first-child > a,
+.pagination-lg > li:first-child > span {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+/* line 522, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pagination-lg > li:last-child > a,
+.pagination-lg > li:last-child > span {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+/* line 527, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pagination-sm > li > a,
+.pagination-sm > li > span {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* line 533, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pagination-sm > li:first-child > a,
+.pagination-sm > li:first-child > span {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+/* line 538, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pagination-sm > li:last-child > a,
+.pagination-sm > li:last-child > span {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+/* line 546, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+/* line 552, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.alert h4 {
+  margin-top: 0;
+  color: inherit;
+}
+
+/* line 560, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+/* line 565, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.alert-success hr {
+  border-top-color: #c9e2b3;
+}
+
+/* line 568, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.alert-success .alert-link {
+  color: #2b542c;
+}
+
+/* line 571, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.alert-info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+
+/* line 576, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.alert-info hr {
+  border-top-color: #a6e1ec;
+}
+
+/* line 579, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.alert-info .alert-link {
+  color: #245269;
+}
+
+/* line 582, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.alert-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+
+/* line 587, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.alert-warning hr {
+  border-top-color: #f7e1b5;
+}
+
+/* line 590, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.alert-warning .alert-link {
+  color: #66512c;
+}
+
+/* line 593, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.alert-danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+
+/* line 598, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.alert-danger hr {
+  border-top-color: #e4b9c0;
+}
+
+/* line 601, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.alert-danger .alert-link {
+  color: #843534;
+}
+
+/* line 604, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.mark-as-read {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: #1976d2;
+}
+
+/* line 610, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+#forgotPasswordFormErrors {
+  color: #ff0000;
+  font-size: 10px;
+}
+
+/* line 614, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.notifications-group time {
+  font-size: 12px;
+  padding-left: 10px;
+  font-style: italic;
+  line-height: 20px;
+}
+
+/* line 620, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.padding-bottom20 {
+  padding-bottom: 20px;
+}
+
+/* line 623, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.width100 {
+  width: 100%;
+}
+
+/* line 626, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.bread-word {
+  word-wrap: break-word;
+}
+
+/* line 629, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.width30 {
+  width: 30%;
+}
+
+/* line 632, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.width70 {
+  width: 70%;
+}
+
+/* line 635, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.brd-1px-black {
+  border: 1px solid #000;
+}
+
+/* line 638, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.pad-all-5 {
+  padding: 5px;
+}
+
+/* line 641, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.font-size-12 {
+  font-size: 12px;
+}
+
+/* line 644, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/base.scss */
+.padding-bottom10 {
+  padding-bottom: 10px;
+}
+
+/* line 2, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.form-group {
+  margin-bottom: 10px;
+}
+
+/* line 8, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-store {
+  background: url(/assets/Icon_sprite-c9f8b8be34dc23e9c81df9004ffb3c0fe91ac4b4e3f245e29c0337dd81a0c742.png) no-repeat -133px -682px;
+  width: 35px;
+  height: 35px;
+}
+
+/* line 14, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.search-icon {
+  background: url(/assets/Icon_sprite-c9f8b8be34dc23e9c81df9004ffb3c0fe91ac4b4e3f245e29c0337dd81a0c742.png) no-repeat -154px -19px;
+  width: 19px;
+  height: 19px;
+}
+
+/* line 19, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.wallet {
+  background: url(/assets/Icon_sprite-c9f8b8be34dc23e9c81df9004ffb3c0fe91ac4b4e3f245e29c0337dd81a0c742.png) no-repeat -41px 0;
+  width: 71px;
+  height: 71px;
+}
+
+/* line 24, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.wallet-small {
+  background: url(/assets/Icon_sprite-c9f8b8be34dc23e9c81df9004ffb3c0fe91ac4b4e3f245e29c0337dd81a0c742.png) no-repeat -41px -81px;
+  width: 33px;
+  height: 33px;
+}
+
+/* line 29, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.user-male {
+  background: url(/assets/Icon_sprite-c9f8b8be34dc23e9c81df9004ffb3c0fe91ac4b4e3f245e29c0337dd81a0c742.png) no-repeat -85px -85px;
+  width: 27px;
+  height: 27px;
+}
+
+/* line 34, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.user-plus {
+  width: 108px;
+  height: 120px;
+  background: url(/assets/Icon_sprite-c9f8b8be34dc23e9c81df9004ffb3c0fe91ac4b4e3f245e29c0337dd81a0c742.png) no-repeat -37px -279px;
+  display: inline-block;
+}
+
+/* line 40, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.edit-info {
+  background: url(/assets/Icon_sprite-c9f8b8be34dc23e9c81df9004ffb3c0fe91ac4b4e3f245e29c0337dd81a0c742.png) no-repeat -122px -46px;
+  width: 25px;
+  height: 25px;
+}
+
+/* line 45, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.reply {
+  background: url(/assets/Icon_sprite-c9f8b8be34dc23e9c81df9004ffb3c0fe91ac4b4e3f245e29c0337dd81a0c742.png) no-repeat -120px -17px;
+  width: 24px;
+  height: 22px;
+}
+
+/* line 50, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.download-wallet-icon {
+  background: url(/assets/Icon_sprite-c9f8b8be34dc23e9c81df9004ffb3c0fe91ac4b4e3f245e29c0337dd81a0c742.png) no-repeat -14px -3px;
+  width: 19px;
+  height: 23px;
+}
+
+/* line 56, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.thread {
+  background: url(/assets/Icon_sprite-c9f8b8be34dc23e9c81df9004ffb3c0fe91ac4b4e3f245e29c0337dd81a0c742.png) no-repeat -8px -397px;
+  width: 50px;
+  height: 79px;
+}
+
+/* line 61, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.tag-green {
+  background: url(/assets/Icon_sprite-c9f8b8be34dc23e9c81df9004ffb3c0fe91ac4b4e3f245e29c0337dd81a0c742.png) no-repeat -4px -495px;
+  width: 64px;
+  height: 64px;
+}
+
+/* line 66, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.tag-maroon {
+  background: url(/assets/Icon_sprite-c9f8b8be34dc23e9c81df9004ffb3c0fe91ac4b4e3f245e29c0337dd81a0c742.png) no-repeat -71px -409px;
+  width: 64px;
+  height: 64px;
+}
+
+/* line 71, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.store {
+  background: url(/assets/Icon_sprite-c9f8b8be34dc23e9c81df9004ffb3c0fe91ac4b4e3f245e29c0337dd81a0c742.png) no-repeat -81px -494px;
+  width: 59px;
+  height: 59px;
+}
+
+/* line 76, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.white-circle {
+  background: url(/assets/Icon_sprite-c9f8b8be34dc23e9c81df9004ffb3c0fe91ac4b4e3f245e29c0337dd81a0c742.png) no-repeat -16px -33px;
+  width: 14px;
+  height: 14px;
+}
+
+/* line 81, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.view-icon {
+  background: url(/assets/Icon_sprite-c9f8b8be34dc23e9c81df9004ffb3c0fe91ac4b4e3f245e29c0337dd81a0c742.png) no-repeat -4px -579px;
+  width: 86px;
+  height: 48px;
+}
+
+/* line 86, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.click-icon {
+  background: url(/assets/Icon_sprite-c9f8b8be34dc23e9c81df9004ffb3c0fe91ac4b4e3f245e29c0337dd81a0c742.png) no-repeat -106px -565px;
+  width: 55px;
+  height: 67px;
+}
+
+/* line 93, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.form-group .label-blue {
+  font-weight: 700;
+  color: #1976d2;
+  font-size: 0.75em;
+}
+
+/* line 103, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.header {
+  padding: 26px 0px;
+}
+/* line 105, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.header .form-control {
+  height: 36px;
+}
+/* line 108, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.header .form-group {
+  margin-right: 10px;
+}
+/* line 111, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.header label {
+  margin-bottom: 0px;
+}
+/* line 115, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.header .form-group.cta * {
+  margin-right: 10px;
+  display: inline-block;
+}
+/* line 119, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.header .form-group.cta .login {
+  background-color: #1976d2;
+}
+/* line 121, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.header .form-group.cta .login:hover {
+  background-color: #1669bb;
+}
+/* line 125, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.header .form-group.cta .sign-up {
+  padding: 6px 15px;
+  margin-right: 0px;
+  background-color: #d59842;
+}
+/* line 129, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.header .form-group.cta .sign-up:hover {
+  background-color: #cf8c2e;
+}
+/* line 133, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.header .form-group.cta p {
+  padding: 0px 5px;
+}
+/* line 138, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.header.header-inner {
+  padding: 15px 0 0;
+}
+/* line 140, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.header.header-inner .userMainMenu {
+  margin-top: 15px;
+}
+
+/* line 148, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.transparent-layer {
+  height: 160px;
+  background-color: rgba(25, 118, 210, 0.7);
+  width: 100%;
+}
+
+/* line 154, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.homepage-banner {
+  background-image: url(/assets/Banner_Image-197b0556e6d2fb0aabe80b4c7d2ce57fb88a68ac9b443b39d88b50e730b6b788.jpg);
+}
+/* line 157, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.homepage-banner .left-section {
+  padding-top: 37px;
+  padding-bottom: 37px;
+}
+/* line 160, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.homepage-banner h3 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 28px;
+}
+/* line 166, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.homepage-banner .right-section {
+  background-color: #ffffff;
+  padding: 20px 25px;
+  -webkit-border-radius: 7px;
+  -khtml-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+}
+/* line 171, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.homepage-banner h5 {
+  font-size: 18px;
+}
+/* line 174, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.homepage-banner span {
+  color: #1976d2;
+  display: inline-block;
+  padding-left: 5px;
+  font-weight: 600;
+}
+/* line 179, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.homepage-banner span label {
+  font-size: 34px;
+}
+/* line 182, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.homepage-banner span i {
+  font-style: normal;
+  font-size: 12px;
+}
+/* line 187, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.homepage-banner a {
+  display: block;
+  padding: 10px 0;
+}
+
+/* line 192, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.features-main {
+  padding: 60px 0;
+}
+/* line 194, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.features-main h2 {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 22px;
+}
+/* line 200, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.features-main p {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+/* line 205, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.report-section {
+  background-color: #a2dcc8;
+}
+/* line 207, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.report-section .content {
+  display: inline-block;
+  margin-left: 30px;
+}
+/* line 211, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.report-section h2 {
+  font-weight: bold;
+  font-size: 28px;
+}
+/* line 215, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.report-section p {
+  font-size: 20px;
+}
+/* line 218, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.report-section img {
+  max-width: 41%;
+}
+
+/* line 227, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.footer .bottom-section p {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #3c3f41;
+  color: #c8c8c4;
+  font-size: 14px;
+}
+/* line 235, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.footer .top-section {
+  background-color: #1976d2;
+  color: #ffffff;
+}
+/* line 238, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.footer .top-section .inner-content-main {
+  display: flex;
+}
+/* line 243, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.footer .top-section ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+/* line 246, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.footer .top-section ul li a {
+  color: #ffffff;
+  font-weight: 600;
+}
+/* line 250, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.footer .top-section ul li:last-child {
+  margin-right: 0;
+}
+
+/* line 259, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.userMainMenu {
+  box-shadow: 0 6px 15px -5px #333;
+  background-color: #1976d2;
+  position: relative;
+}
+/* line 265, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.userMainMenu .navbar-nav > .active > a {
+  color: #ffffff;
+}
+/* line 270, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.userMainMenu .navbar-nav > li > a {
+  color: #ffffff;
+  background-color: transparent;
+  padding: 10px 25px;
+}
+/* line 274, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.userMainMenu .navbar-nav > li > a:hover {
+  background-color: #ffffff;
+  color: #1976d2;
+}
+/* line 280, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.userMainMenu .navbar-nav > li.open > a {
+  background-color: #ffffff;
+  color: #1976d2;
+}
+/* line 288, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.userMainMenu .fa-caret-down {
+  font-size: 20px;
+  vertical-align: middle;
+  padding-left: 6px;
+}
+
+/* line 297, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.registered-user-menu .navbar-nav {
+  float: none;
+  display: table;
+}
+/* line 300, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.registered-user-menu .navbar-nav i.walletText {
+  font-size: 13px;
+}
+/* line 303, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.registered-user-menu .navbar-nav > li {
+  float: none;
+  display: table-cell;
+}
+/* line 308, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.registered-user-menu .navbar-nav > li.dropdown .dropdown-menu li {
+  display: block;
+}
+/* line 314, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.registered-user-menu .navbar-nav > li:last-child a {
+  padding-left: 0;
+}
+/* line 321, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.registered-user-menu .fa {
+  padding-right: 5px;
+  font-size: 30px;
+  vertical-align: middle;
+}
+/* line 326, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.registered-user-menu span {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10px;
+  font-size: 16px;
+}
+/* line 331, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.registered-user-menu span i:not(.fa) {
+  color: #343434;
+  font-style: normal;
+}
+/* line 336, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.registered-user-menu .badge {
+  position: absolute;
+  right: 55%;
+  top: 15%;
+  padding: 0;
+  background: #d84541;
+  border-radius: 50%;
+  padding: 0px;
+  font-size: 12px;
+  width: 22px;
+  height: 22px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  vertical-align: middle;
+  line-height: 22px;
+  border: 1px solid white;
+}
+/* line 354, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.registered-user-menu .fa-rupee {
+  font-size: 16px;
+}
+/* line 360, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.registered-user-menu ul li:first-child a {
+  border-right: 1px solid #CCCCCC;
+}
+/* line 366, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.registered-user-menu .nav > li > a {
+  padding: 10px 45px;
+}
+/* line 370, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.registered-user-menu .nav > li > a:hover, .registered-user-menu .nav > li > a:focus {
+  background-color: transparent;
+  color: #1976d2;
+}
+/* line 374, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.registered-user-menu label, .registered-user-menu .fa-caret-down {
+  color: #343434;
+  cursor: pointer;
+  padding-left: 5px;
+}
+/* line 379, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.registered-user-menu .fa-caret-down {
+  padding-left: 5px;
+  color: #999999;
+}
+
+/* line 388, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#signUpForm .modal-header {
+  background-image: url(/assets/border-7f8e54c171915a61abddfda0d296d21c08225bc6b660b463800929875a00b225.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border: 0 none;
+}
+/* line 393, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#signUpForm .modal-header h4 {
+  color: #1976d2;
+  font-weight: 600;
+  font-size: 18px;
+}
+/* line 399, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#signUpForm .modal-body {
+  width: 85%;
+  margin: 0 auto;
+  padding-bottom: 0;
+}
+/* line 404, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#signUpForm .modal-footer {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  border: 0 none;
+  padding: 0px;
+  margin-bottom: 30px;
+  margin-top: 20PX;
+}
+/* line 412, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#signUpForm .modal-footer .btn {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+}
+/* line 417, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#signUpForm .modal-footer p {
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+/* line 424, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main, .inner-block {
+  background-color: #e9eaed;
+}
+/* line 427, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .top-heading h1, .inner-block .top-heading h1 {
+  color: #ffffff;
+  margin: 20px 0 30px;
+  font-size: 22px;
+}
+/* line 433, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .top-main, .inner-block .top-main {
+  background-image: url(/assets/mt_bg-9341dd2687e8d66a5c3d65bbd3c702c6789ea28dc79d4f6bd643bdc2db54fb2b.png);
+  background-position: 0 -20px;
+}
+/* line 437, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .tab-content, .inner-block .tab-content {
+  padding: 0;
+}
+/* line 440, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .deal-progress-bar, .inner-block .deal-progress-bar {
+  position: relative;
+  z-index: 1;
+}
+/* line 444, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .deal-progress-bar .container .row, .inner-block .deal-progress-bar .container .row {
+  position: relative;
+}
+/* line 448, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .deal-progress-bar .bs-wizard, .inner-block .deal-progress-bar .bs-wizard {
+  padding: 0 0 10px 0;
+  width: 75%;
+  margin: 20px auto 100px;
+  counter-reset: step;
+}
+/* line 453, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .deal-progress-bar .bs-wizard > .bs-wizard-step, .inner-block .deal-progress-bar .bs-wizard > .bs-wizard-step {
+  padding: 0;
+  position: relative;
+}
+/* line 457, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .deal-progress-bar .bs-wizard > .bs-wizard-step .bs-wizard-stepnum, .inner-block .deal-progress-bar .bs-wizard > .bs-wizard-step .bs-wizard-stepnum {
+  color: #595959;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+/* line 462, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .deal-progress-bar .bs-wizard > .bs-wizard-step .bs-wizard-info, .inner-block .deal-progress-bar .bs-wizard > .bs-wizard-step .bs-wizard-info {
+  color: #f2e4e4;
+}
+/* line 467, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .deal-progress-bar .bs-wizard > .bs-wizard-step > .bs-wizard-dot, .inner-block .deal-progress-bar .bs-wizard > .bs-wizard-step > .bs-wizard-dot {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  display: block;
+  background: #e7b4b3;
+  top: 30%;
+  left: 50%;
+  margin-top: -15px;
+  margin-left: -15px;
+  border-radius: 50%;
+  vertical-align: middle;
+  display: table-cell;
+  border-radius: 50%;
+}
+/* line 481, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .deal-progress-bar .bs-wizard > .bs-wizard-step > .bs-wizard-dot:after, .inner-block .deal-progress-bar .bs-wizard > .bs-wizard-step > .bs-wizard-dot:after {
+  content: counter(step);
+  counter-increment: step;
+  width: 80%;
+  height: 80%;
+  background: #ffffff;
+  border-radius: 50px;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  display: block;
+  z-index: 9999;
+}
+/* line 495, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .deal-progress-bar .bs-wizard > .bs-wizard-step > .progress, .inner-block .deal-progress-bar .bs-wizard > .bs-wizard-step > .progress {
+  position: relative;
+  border-radius: 0;
+  height: 8px;
+  box-shadow: none;
+  margin: 20px 0;
+}
+/* line 501, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .deal-progress-bar .bs-wizard > .bs-wizard-step > .progress > .progress-bar, .inner-block .deal-progress-bar .bs-wizard > .bs-wizard-step > .progress > .progress-bar {
+  width: 0;
+  box-shadow: none;
+  background: #ffffff;
+  z-index: 10;
+  position: relative;
+  -webkit-transition: width 0.4s linear;
+  -khtml-transition: width 0.4s linear;
+  -moz-transition: width 0.4s linear;
+  -ms-transition: width 0.4s linear;
+  -o-transition: width 0.4s linear;
+  transition: width 0.4s linear;
+}
+/* line 512, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .deal-progress-bar .bs-wizard > .bs-wizard-step:first-child.active > .progress > .progress-bar, .inner-block .deal-progress-bar .bs-wizard > .bs-wizard-step:first-child.active > .progress > .progress-bar {
+  width: 0;
+}
+/* line 515, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .deal-progress-bar .bs-wizard > .bs-wizard-step:first-child > .progress, .inner-block .deal-progress-bar .bs-wizard > .bs-wizard-step:first-child > .progress {
+  left: 50%;
+  width: 50%;
+}
+/* line 521, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .deal-progress-bar .bs-wizard > .bs-wizard-step:last-child.active > .progress > .progress-bar, .inner-block .deal-progress-bar .bs-wizard > .bs-wizard-step:last-child.active > .progress > .progress-bar {
+  width: 100%;
+}
+/* line 524, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .deal-progress-bar .bs-wizard > .bs-wizard-step:last-child > .progress, .inner-block .deal-progress-bar .bs-wizard > .bs-wizard-step:last-child > .progress {
+  width: 50%;
+}
+/* line 530, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .deal-progress-bar .bs-wizard > .bs-wizard-step.active > .progress > .progress-bar, .inner-block .deal-progress-bar .bs-wizard > .bs-wizard-step.active > .progress > .progress-bar {
+  width: 50%;
+}
+/* line 538, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .deal-progress-bar .bs-wizard > .bs-wizard-step.active > .bs-wizard-dot:after, .create-deal-main .deal-progress-bar .bs-wizard > .bs-wizard-step.complete > .bs-wizard-dot:after, .inner-block .deal-progress-bar .bs-wizard > .bs-wizard-step.active > .bs-wizard-dot:after, .inner-block .deal-progress-bar .bs-wizard > .bs-wizard-step.complete > .bs-wizard-dot:after {
+  font-weight: bold;
+  text-align: center;
+  line-height: 32px;
+}
+/* line 545, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .deal-progress-bar .bs-wizard > .bs-wizard-step.active .bs-wizard-info, .create-deal-main .deal-progress-bar .bs-wizard > .bs-wizard-step.complete .bs-wizard-info, .inner-block .deal-progress-bar .bs-wizard > .bs-wizard-step.active .bs-wizard-info, .inner-block .deal-progress-bar .bs-wizard > .bs-wizard-step.complete .bs-wizard-info {
+  color: #ffffff;
+  font-weight: 700;
+}
+/* line 551, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .deal-progress-bar .bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot, .inner-block .deal-progress-bar .bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot {
+  background: transparent;
+}
+/* line 553, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .deal-progress-bar .bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot:after, .inner-block .deal-progress-bar .bs-wizard > .bs-wizard-step.disabled > .bs-wizard-dot:after {
+  text-align: center;
+  width: auto;
+  position: relative;
+  background: #e7b4b3;
+  top: 0%;
+  left: 0;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 40px;
+}
+/* line 568, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .deal-progress-bar .bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot, .inner-block .deal-progress-bar .bs-wizard > .bs-wizard-step.disabled a.bs-wizard-dot {
+  pointer-events: none;
+}
+/* line 574, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .deal-progress-bar .bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar, .inner-block .deal-progress-bar .bs-wizard > .bs-wizard-step.complete > .progress > .progress-bar {
+  width: 100%;
+}
+/* line 577, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .deal-progress-bar .bs-wizard > .bs-wizard-step.active > .progress > .progress-bar, .inner-block .deal-progress-bar .bs-wizard > .bs-wizard-step.active > .progress > .progress-bar {
+  width: 50%;
+}
+/* line 582, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .deal-progress-bar .progress, .inner-block .deal-progress-bar .progress {
+  background-color: #e7b4b3;
+}
+/* line 587, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content, .inner-block .content {
+  margin-top: -25px;
+  position: relative;
+}
+/* line 592, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content form button[type="submit"], .inner-block .content form button[type="submit"] {
+  background-color: #1976d2;
+}
+/* line 600, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content form .form-group p span, .inner-block .content form .form-group p span {
+  color: #1976d2;
+  font-size: 34px;
+  padding-left: 10px;
+}
+/* line 608, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content.active, .inner-block .content.active {
+  display: block;
+}
+/* line 612, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content.selectSpot .form-group, .create-deal-main .content.selectSpot .materialize-input, .inner-block .content.selectSpot .form-group, .inner-block .content.selectSpot .materialize-input {
+  margin-bottom: 20px;
+}
+/* line 616, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content.offerDetails, .inner-block .content.offerDetails {
+  width: 700px;
+  margin: -25px auto 100px;
+}
+/* line 622, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content.offerDetails .date-form, .inner-block .content.offerDetails .date-form {
+  margin-top: 19px;
+}
+/* line 628, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content.dealCreated, .inner-block .content.dealCreated {
+  padding: 0;
+  background-color: #a3d8f7;
+  background-image: url(/assets/deal_post-ff5ac8d7c13041df673f79266e55031c3c673a0d5b5b39298e32b2e1575c619c.png);
+  background-repeat: no-repeat;
+  background-position: 108% 91%;
+  -webkit-border-radius: 9px;
+  -khtml-border-radius: 9px;
+  -moz-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -o-border-radius: 9px;
+  border-radius: 9px;
+  padding-right: 9px;
+}
+/* line 636, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content.dealCreated .left-section, .inner-block .content.dealCreated .left-section {
+  background-color: #ffffff;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  padding: 0 35px;
+}
+/* line 643, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content.dealCreated .inner-content, .inner-block .content.dealCreated .inner-content {
+  padding-top: 35px;
+}
+/* line 645, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content.dealCreated .inner-content p, .inner-block .content.dealCreated .inner-content p {
+  margin-top: 35px;
+}
+/* line 649, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content.dealCreated.rechargeSuccess, .inner-block .content.dealCreated.rechargeSuccess {
+  background-image: url(/assets/wallet_img-d73ca53129b135541541a9ac57343d0226b2efed3ef8edc27e951bb3b93a4668.png);
+  background-position: 90%;
+}
+/* line 652, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content.dealCreated.rechargeSuccess .left-section, .inner-block .content.dealCreated.rechargeSuccess .left-section {
+  padding: 0 35px;
+  height: 359px;
+}
+/* line 655, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content.dealCreated.rechargeSuccess .left-section .inner-content, .inner-block .content.dealCreated.rechargeSuccess .left-section .inner-content {
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+/* line 660, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content.dealCreated.rechargeSuccess .left-section .inner-content .middle-content, .inner-block .content.dealCreated.rechargeSuccess .left-section .inner-content .middle-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 668, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content .dealDetails, .inner-block .content .dealDetails {
+  display: none;
+}
+/* line 670, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content .dealDetails p, .inner-block .content .dealDetails p {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+/* line 675, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content .payment-inner, .create-deal-main .content .payment-confirm, .inner-block .content .payment-inner, .inner-block .content .payment-confirm {
+  display: table;
+  width: 100%;
+}
+/* line 678, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content .payment-inner .wallet-balance, .create-deal-main .content .payment-confirm .wallet-balance, .inner-block .content .payment-inner .wallet-balance, .inner-block .content .payment-confirm .wallet-balance {
+  border-radius: 7px;
+  border: 1px solid #ccc;
+  padding: 34px 20px;
+  background-color: #ffffff;
+  position: relative;
+  z-index: 10;
+  width: 88%;
+}
+/* line 686, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content .payment-inner .wallet-balance i.fa-google-wallet, .create-deal-main .content .payment-confirm .wallet-balance i.fa-google-wallet, .inner-block .content .payment-inner .wallet-balance i.fa-google-wallet, .inner-block .content .payment-confirm .wallet-balance i.fa-google-wallet {
+  color: #1976d2;
+  font-size: 32px;
+}
+/* line 690, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content .payment-inner .wallet-balance i, .create-deal-main .content .payment-confirm .wallet-balance i, .inner-block .content .payment-inner .wallet-balance i, .inner-block .content .payment-confirm .wallet-balance i {
+  padding-right: 5px;
+}
+/* line 693, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content .payment-inner .wallet-balance p, .create-deal-main .content .payment-confirm .wallet-balance p, .inner-block .content .payment-inner .wallet-balance p, .inner-block .content .payment-confirm .wallet-balance p {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 0;
+  padding-left: 5px;
+  font-size: 16px;
+}
+/* line 699, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content .payment-inner .wallet-balance p span, .create-deal-main .content .payment-confirm .wallet-balance p span, .inner-block .content .payment-inner .wallet-balance p span, .inner-block .content .payment-confirm .wallet-balance p span {
+  color: #1976d2;
+  font-size: 30px;
+}
+/* line 704, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content .payment-inner .wallet-balance .wallet, .create-deal-main .content .payment-confirm .wallet-balance .wallet, .inner-block .content .payment-inner .wallet-balance .wallet, .inner-block .content .payment-confirm .wallet-balance .wallet {
+  vertical-align: middle;
+}
+/* line 708, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content .payment-inner .col-sm-4, .create-deal-main .content .payment-confirm .col-sm-4, .inner-block .content .payment-inner .col-sm-4, .inner-block .content .payment-confirm .col-sm-4 {
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+}
+/* line 712, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content .payment-inner .col-sm-4:last-child, .create-deal-main .content .payment-confirm .col-sm-4:last-child, .inner-block .content .payment-inner .col-sm-4:last-child, .inner-block .content .payment-confirm .col-sm-4:last-child {
+  z-index: 10;
+}
+/* line 717, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content .payment-inner .form-group, .create-deal-main .content .payment-confirm .form-group, .inner-block .content .payment-inner .form-group, .inner-block .content .payment-confirm .form-group {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+/* line 721, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content .payment-inner .form-group:before, .create-deal-main .content .payment-confirm .form-group:before, .inner-block .content .payment-inner .form-group:before, .inner-block .content .payment-confirm .form-group:before {
+  content: '';
+  border-top: 1px solid #e5e5e5;
+  position: absolute;
+  width: 100%;
+  left: -100%;
+  top: 50%;
+  z-index: 1;
+}
+/* line 730, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content .payment-inner .form-group:after, .create-deal-main .content .payment-confirm .form-group:after, .inner-block .content .payment-inner .form-group:after, .inner-block .content .payment-confirm .form-group:after {
+  content: '';
+  border-top: 1px solid #e5e5e5;
+  position: absolute;
+  width: 100%;
+  right: -100%;
+  top: 50%;
+  z-index: 1;
+}
+/* line 739, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content .payment-inner .form-group .form-control, .create-deal-main .content .payment-confirm .form-group .form-control, .inner-block .content .payment-inner .form-group .form-control, .inner-block .content .payment-confirm .form-group .form-control {
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-image: none;
+}
+/* line 750, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content .payment-inner .addMoney, .create-deal-main .content .payment-confirm .addMoney, .inner-block .content .payment-inner .addMoney, .inner-block .content .payment-confirm .addMoney {
+  position: relative;
+  background-color: #1976d2;
+  color: #ffffff;
+  font-weight: 700;
+  display: inline-block;
+  text-align: center;
+  padding: 0 30px 0 0;
+  border-radius: 20px;
+  float: right;
+  border: 0 none;
+}
+/* line 761, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content .payment-inner .addMoney:hover, .create-deal-main .content .payment-confirm .addMoney:hover, .inner-block .content .payment-inner .addMoney:hover, .inner-block .content .payment-confirm .addMoney:hover {
+  text-decoration: none;
+}
+/* line 764, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content .payment-inner .addMoney span, .create-deal-main .content .payment-confirm .addMoney span, .inner-block .content .payment-inner .addMoney span, .inner-block .content .payment-confirm .addMoney span {
+  padding: 8px;
+  background-color: #3991e7;
+  border-radius: 50%;
+  margin-right: 10px;
+  line-height: 100%;
+}
+/* line 770, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content .payment-inner .addMoney span .fa, .create-deal-main .content .payment-confirm .addMoney span .fa, .inner-block .content .payment-inner .addMoney span .fa, .inner-block .content .payment-confirm .addMoney span .fa {
+  color: #2d76be;
+}
+/* line 774, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content .payment-inner .addMoney.make-payment, .create-deal-main .content .payment-confirm .addMoney.make-payment, .inner-block .content .payment-inner .addMoney.make-payment, .inner-block .content .payment-confirm .addMoney.make-payment {
+  width: 70%;
+  text-align: center;
+  padding: 10px 0;
+}
+/* line 779, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content .payment-inner .addMoney input[type="submit"], .create-deal-main .content .payment-confirm .addMoney input[type="submit"], .inner-block .content .payment-inner .addMoney input[type="submit"], .inner-block .content .payment-confirm .addMoney input[type="submit"] {
+  background: transparent;
+  border: 0 none;
+  padding: 0;
+  margin: 0;
+}
+/* line 787, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content .payment-confirm, .inner-block .content .payment-confirm {
+  display: table;
+}
+/* line 790, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content .payment-confirm .form-group p, .inner-block .content .payment-confirm .form-group p {
+  margin-bottom: 0;
+  -webkit-border-radius: 7px;
+  -khtml-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 10px 0;
+}
+/* line 796, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content .payment-confirm .form-group p span, .inner-block .content .payment-confirm .form-group p span {
+  vertical-align: middle;
+}
+/* line 801, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .content .payment-confirm input[type="submit"], .inner-block .content .payment-confirm input[type="submit"] {
+  border: 0 none;
+}
+/* line 807, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.createStoreMain, .inner-block.createStoreMain {
+  position: relative;
+}
+/* line 810, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.createStoreMain .inner-content-main form, .inner-block.createStoreMain .inner-content-main form {
+  width: 87%;
+  margin: 0 auto;
+}
+/* line 813, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.createStoreMain .inner-content-main form .actions, .inner-block.createStoreMain .inner-content-main form .actions {
+  margin-top: 50px;
+}
+/* line 815, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.createStoreMain .inner-content-main form .actions .btn, .inner-block.createStoreMain .inner-content-main form .actions .btn {
+  padding: 10px 0;
+  text-align: center;
+  width: 170px;
+}
+/* line 827, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.editPersonalInfoMain .inner-content-main, .inner-block.editPersonalInfoMain .inner-content-main {
+  margin-top: -145px;
+}
+/* line 833, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .manageProfileTabs .headerSection, .inner-block .manageProfileTabs .headerSection {
+  border-bottom: 2px solid #ddd;
+  padding-left: 35px;
+}
+/* line 836, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .manageProfileTabs .headerSection .editPersonalInfo, .inner-block .manageProfileTabs .headerSection .editPersonalInfo {
+  padding-right: 70px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #1976d2;
+}
+/* line 840, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .manageProfileTabs .headerSection .editPersonalInfo span, .inner-block .manageProfileTabs .headerSection .editPersonalInfo span {
+  padding-left: 10px;
+}
+/* line 843, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .manageProfileTabs .headerSection .editPersonalInfo:hover, .inner-block .manageProfileTabs .headerSection .editPersonalInfo:hover {
+  text-decoration: none;
+}
+/* line 851, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .manageProfileTabs .tab-content .dl-horizontal, .inner-block .manageProfileTabs .tab-content .dl-horizontal {
+  font-weight: 600;
+}
+/* line 853, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .manageProfileTabs .tab-content .dl-horizontal dt, .inner-block .manageProfileTabs .tab-content .dl-horizontal dt {
+  text-align: left;
+  font-weight: 400;
+  color: #2c2f32;
+}
+/* line 858, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .manageProfileTabs .tab-content .dl-horizontal dd, .inner-block .manageProfileTabs .tab-content .dl-horizontal dd {
+  margin-bottom: 15px;
+}
+/* line 860, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .manageProfileTabs .tab-content .dl-horizontal dd span, .inner-block .manageProfileTabs .tab-content .dl-horizontal dd span {
+  color: #14c757;
+  font-size: 12px;
+  padding-left: 10px;
+}
+/* line 867, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .manageProfileTabs .tab-content .cta, .inner-block .manageProfileTabs .tab-content .cta {
+  width: 50%;
+  margin: 20px auto;
+}
+/* line 870, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .manageProfileTabs .tab-content .cta .submit-btn, .inner-block .manageProfileTabs .tab-content .cta .submit-btn {
+  width: 47%;
+}
+/* line 872, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .manageProfileTabs .tab-content .cta .submit-btn:first-child, .inner-block .manageProfileTabs .tab-content .cta .submit-btn:first-child {
+  margin-right: 15px;
+}
+/* line 876, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .manageProfileTabs .tab-content .cta.full-width-cta, .inner-block .manageProfileTabs .tab-content .cta.full-width-cta {
+  width: 100%;
+}
+/* line 884, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .manageProfileTabs body, .inner-block .manageProfileTabs body {
+  background: #edecec;
+  padding: 50px;
+}
+/* line 888, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .manageProfileTabs .tab-nav > li > a::after, .inner-block .manageProfileTabs .tab-nav > li > a::after {
+  background: #21527d none repeat scroll 0 0;
+  color: #fff;
+}
+/* line 897, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.manageDealsMain .top-main, .inner-block.manageDealsMain .top-main {
+  background-repeat: no-repeat;
+}
+/* line 900, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.manageDealsMain .breadcrumb, .inner-block.manageDealsMain .breadcrumb {
+  background: inherit;
+  padding: 20px 0 30px;
+  background-repeat: no-repeat;
+  -webkit-border-radius: 0px;
+  -khtml-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+}
+/* line 906, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.manageDealsMain .middle-content, .inner-block.manageDealsMain .middle-content {
+  position: relative;
+  background-image: url(/assets/coupon_bg-a8676633801033f8b7c3d4c2b063b6cf5f0ec46e21f90acbc131520aa13f10ac.png);
+  background-repeat: no-repeat;
+  background-position: 55% center;
+}
+/* line 912, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.manageDealsMain .middle-content .container .no-topics, .inner-block.manageDealsMain .middle-content .container .no-topics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* line 916, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.manageDealsMain .middle-content .container .no-topics a, .inner-block.manageDealsMain .middle-content .container .no-topics a {
+  display: block;
+  text-align: center;
+  padding: 170px 0 150px;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* line 927, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.manageDealsMain .middle-content.editMiddleContent, .inner-block.manageDealsMain .middle-content.editMiddleContent {
+  background: none;
+}
+/* line 930, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.manageDealsMain .middle-content.editMiddleContent .container .row, .inner-block.manageDealsMain .middle-content.editMiddleContent .container .row {
+  height: 120px;
+}
+/* line 936, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.manageDealsMain .manageDealsData, .inner-block.manageDealsMain .manageDealsData {
+  margin-top: -130px;
+  position: relative;
+  z-index: 10;
+}
+/* line 943, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.manageDealsMain .manageDealsData table tbody tr.accordian-content, .inner-block.manageDealsMain .manageDealsData table tbody tr.accordian-content {
+  background-color: #ffffff;
+}
+/* line 945, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.manageDealsMain .manageDealsData table tbody tr.accordian-content td, .inner-block.manageDealsMain .manageDealsData table tbody tr.accordian-content td {
+  padding: 0;
+}
+/* line 948, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.manageDealsMain .manageDealsData table tbody tr.accordian-content .well, .inner-block.manageDealsMain .manageDealsData table tbody tr.accordian-content .well {
+  background-color: transparent;
+  border: 0 none;
+  padding: 30px 19px 30px;
+  margin-bottom: 20px;
+  box-shadow: none;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* line 955, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.manageDealsMain .manageDealsData table tbody tr.accordian-content .well h4, .inner-block.manageDealsMain .manageDealsData table tbody tr.accordian-content .well h4 {
+  margin-top: 5px;
+  color: #1976d2;
+  font-size: 16px;
+}
+/* line 960, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.manageDealsMain .manageDealsData table tbody tr.accordian-content .well p, .inner-block.manageDealsMain .manageDealsData table tbody tr.accordian-content .well p {
+  margin: 0 0 30px;
+}
+/* line 963, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.manageDealsMain .manageDealsData table tbody tr.accordian-content .well img, .inner-block.manageDealsMain .manageDealsData table tbody tr.accordian-content .well img {
+  -webkit-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  height: 66px;
+  width: 66px;
+}
+/* line 968, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.manageDealsMain .manageDealsData table tbody tr.accordian-content .well a, .inner-block.manageDealsMain .manageDealsData table tbody tr.accordian-content .well a {
+  text-transform: uppercase;
+}
+/* line 970, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.manageDealsMain .manageDealsData table tbody tr.accordian-content .well a i, .inner-block.manageDealsMain .manageDealsData table tbody tr.accordian-content .well a i {
+  margin-right: 10px;
+}
+/* line 977, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.manageDealsMain .manageDealsData table tbody > tr > td, .create-deal-main.manageDealsMain .manageDealsData table tbody > tr > th, .inner-block.manageDealsMain .manageDealsData table tbody > tr > td, .inner-block.manageDealsMain .manageDealsData table tbody > tr > th {
+  padding: 15px 35px;
+}
+/* line 984, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.manageDealsMain .manageDealsData table thead > tr > td, .create-deal-main.manageDealsMain .manageDealsData table thead > tr > th, .inner-block.manageDealsMain .manageDealsData table thead > tr > td, .inner-block.manageDealsMain .manageDealsData table thead > tr > th {
+  padding: 15px 35px;
+}
+/* line 993, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.manageDealsMain .inner-content-main .content, .inner-block.manageDealsMain .inner-content-main .content {
+  display: block;
+}
+/* line 1000, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .editManageDealForm .center-align, .inner-block .editManageDealForm .center-align {
+  width: 700px;
+}
+/* line 1004, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .editManageDealForm .content, .inner-block .editManageDealForm .content {
+  display: block;
+  margin: 0;
+  box-shadow: none;
+  border-radius: 0px;
+}
+/* line 1010, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .editManageDealForm .is-fileinput .submit-btn, .inner-block .editManageDealForm .is-fileinput .submit-btn {
+  width: 15%;
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+  float: left;
+  padding-top: 0;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+/* line 1020, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .editManageDealForm .materialize-input, .create-deal-main .editManageDealForm .form-group, .inner-block .editManageDealForm .materialize-input, .inner-block .editManageDealForm .form-group {
+  margin-bottom: 20px;
+}
+/* line 1027, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.merchant-hub-reports .reports-data-main .report-sort-by, .inner-block.merchant-hub-reports .reports-data-main .report-sort-by {
+  padding: 25px 35px 5px;
+}
+/* line 1029, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.merchant-hub-reports .reports-data-main .report-sort-by div.radio, .inner-block.merchant-hub-reports .reports-data-main .report-sort-by div.radio {
+  display: inline-block;
+  margin-right: 10px;
+}
+/* line 1032, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.merchant-hub-reports .reports-data-main .report-sort-by div.radio label, .create-deal-main.merchant-hub-reports .reports-data-main .report-sort-by div.radio label.radio-inline, .inner-block.merchant-hub-reports .reports-data-main .report-sort-by div.radio label, .inner-block.merchant-hub-reports .reports-data-main .report-sort-by div.radio label.radio-inline {
+  padding-left: 35px;
+  color: #343434;
+}
+/* line 1039, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.merchant-hub-reports .reports-data-main .table > thead > tr > th, .create-deal-main.merchant-hub-reports .reports-data-main .table > tbody > tr > th, .create-deal-main.merchant-hub-reports .reports-data-main .table > tfoot > tr > th, .create-deal-main.merchant-hub-reports .reports-data-main .table > thead > tr > td, .create-deal-main.merchant-hub-reports .reports-data-main .table > tbody > tr > td, .create-deal-main.merchant-hub-reports .reports-data-main .table > tfoot > tr > td, .inner-block.merchant-hub-reports .reports-data-main .table > thead > tr > th, .inner-block.merchant-hub-reports .reports-data-main .table > tbody > tr > th, .inner-block.merchant-hub-reports .reports-data-main .table > tfoot > tr > th, .inner-block.merchant-hub-reports .reports-data-main .table > thead > tr > td, .inner-block.merchant-hub-reports .reports-data-main .table > tbody > tr > td, .inner-block.merchant-hub-reports .reports-data-main .table > tfoot > tr > td {
+  padding: 12px 35px;
+}
+/* line 1044, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.merchant-hub-reports .reports-data-main .tab-content, .inner-block.merchant-hub-reports .reports-data-main .tab-content {
+  padding: 0;
+}
+/* line 1048, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.merchant-hub-reports .report-top-header, .inner-block.merchant-hub-reports .report-top-header {
+  border-bottom: 1px solid #ccc;
+  padding-left: 35px;
+}
+/* line 1053, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.merchant-hub-reports .breadcrumb, .inner-block.merchant-hub-reports .breadcrumb {
+  background-color: transparent;
+}
+/* line 1055, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.merchant-hub-reports .breadcrumb li, .inner-block.merchant-hub-reports .breadcrumb li {
+  font-weight: 600;
+}
+/* line 1057, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.merchant-hub-reports .breadcrumb li a, .inner-block.merchant-hub-reports .breadcrumb li a {
+  color: #1976d2;
+}
+/* line 1059, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.merchant-hub-reports .breadcrumb li a:hover, .inner-block.merchant-hub-reports .breadcrumb li a:hover {
+  color: #00fff0;
+}
+/* line 1063, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.merchant-hub-reports .breadcrumb li.active, .inner-block.merchant-hub-reports .breadcrumb li.active {
+  color: #1976d2;
+}
+/* line 1065, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.merchant-hub-reports .breadcrumb li.active:before, .inner-block.merchant-hub-reports .breadcrumb li.active:before {
+  color: #1976d2 !important;
+}
+/* line 1071, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.merchant-hub-reports .breadcrumb > li + li:before, .inner-block.merchant-hub-reports .breadcrumb > li + li:before {
+  color: #1976d2;
+}
+/* line 1076, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.rechargeWalletMain .banner, .inner-block.rechargeWalletMain .banner {
+  background-image: url(/assets/recharge_wallet_bg-b316ddf95528ff4c036a7e740d5b285b2941d5d73c8cccdd91512d7ff2dc178c.jpg);
+  background-repeat: no-repeat;
+  height: 185px;
+  background-color: transparent;
+}
+/* line 1081, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.rechargeWalletMain .banner .breadcrumb, .inner-block.rechargeWalletMain .banner .breadcrumb {
+  background-image: none;
+  height: auto;
+}
+/* line 1089, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.rechargeWalletMain .rechargeContent, .inner-block.rechargeWalletMain .rechargeContent {
+  padding-bottom: 100px;
+}
+/* line 1091, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.rechargeWalletMain .rechargeContent .inner-content-main, .inner-block.rechargeWalletMain .rechargeContent .inner-content-main {
+  margin-top: -100px;
+}
+/* line 1094, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.rechargeWalletMain .rechargeContent .content, .inner-block.rechargeWalletMain .rechargeContent .content {
+  display: block;
+}
+/* line 1098, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main.rechargeWalletMain .rechargeContent .featured-section, .inner-block.rechargeWalletMain .rechargeContent .featured-section {
+  margin-top: 30px;
+}
+
+/* line 1105, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.notification-main .top-heading {
+  height: 270px;
+}
+
+/* line 1109, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.createStoreForm {
+  padding: 20px 0;
+  width: 700px;
+  margin: auto;
+  margin-top: -50px;
+  margin-bottom: 100px;
+}
+/* line 1116, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.createStoreForm .checkbox {
+  margin-top: 15px;
+}
+/* line 1119, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.createStoreForm .submit-btn {
+  width: 30%;
+}
+
+/* line 1123, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.createStoreBanner {
+  background-color: #77b0dc;
+}
+/* line 1125, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.createStoreBanner .breadcrumb {
+  background-color: inherit;
+  background-image: url(/assets/roof-75ca1cf76953fda422474d319b703577cc774c7170f00424de524752a6b87183.png);
+  height: 228px;
+  margin-top: 1px;
+  font-weight: 600;
+  background-size: 100% 100%;
+}
+/* line 1133, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.createStoreBanner .breadcrumb li a {
+  color: #ffffff;
+}
+/* line 1136, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.createStoreBanner .breadcrumb li.active {
+  color: #ffffff;
+}
+/* line 1137, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.createStoreBanner .breadcrumb li.active:before {
+  color: #ffffff;
+}
+
+/* line 1146, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain, .dashboard-main {
+  color: #ffffff;
+}
+/* line 1148, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain > .top-section, .dashboard-main > .top-section {
+  text-align: center;
+  background-image: url(/assets/manageprofile_background-ae6d3638834fd0d86d38acbbf8f839bfae47413cd8d7bfedf20c2cdd570f952a.png);
+  height: 432px;
+}
+/* line 1156, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain .roundedCircle, .dashboard-main .roundedCircle {
+  display: inline-block;
+  width: 136px;
+  height: 136px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  line-height: 150px;
+  overflow: hidden;
+  position: relative;
+}
+/* line 1165, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain .roundedCircle .overlay, .dashboard-main .roundedCircle .overlay {
+  position: absolute;
+  bottom: 0;
+  line-height: 1.4;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 25%;
+}
+/* line 1172, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain .roundedCircle .overlay p, .dashboard-main .roundedCircle .overlay p {
+  margin: 0;
+  color: #ffffff;
+  padding-top: 5px;
+  font-weight: 600;
+  font-size: 12px;
+}
+/* line 1180, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain .roundedCircle img, .dashboard-main .roundedCircle img {
+  vertical-align: baseline;
+}
+/* line 1184, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain .brandName, .dashboard-main .brandName {
+  margin-bottom: 25px;
+}
+/* line 1186, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain .brandName p, .dashboard-main .brandName p {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+/* line 1192, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main > .top-section, .dashboard-main.dashboard-main > .top-section {
+  background-image: url(/assets/dashboard_bg-75b436742073abbacd3c5aada8ac7b287506d78271aab3ed7e2eb040ee405657.png);
+  height: 432px;
+  background-size: cover;
+  padding: 0;
+}
+/* line 1198, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main > .noStore, .dashboard-main.dashboard-main > .noStore {
+  height: 315px;
+}
+/* line 1202, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealDashboard .featured-section, .dashboard-main.dashboard-main .dealDashboard .featured-section {
+  margin-top: -70px;
+  margin-bottom: 30px;
+}
+/* line 1205, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealDashboard .featured-section .middle-section, .dashboard-main.dashboard-main .dealDashboard .featured-section .middle-section {
+  height: 44%;
+}
+/* line 1208, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealDashboard .featured-section .bottom-section, .dashboard-main.dashboard-main .dealDashboard .featured-section .bottom-section {
+  height: 56%;
+}
+/* line 1211, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealDashboard .featured-section .bottom-section, .dashboard-main.dashboard-main .dealDashboard .featured-section .bottom-section {
+  color: #343434;
+  padding: 20px 15px;
+}
+/* line 1214, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealDashboard .featured-section .bottom-section > div, .dashboard-main.dashboard-main .dealDashboard .featured-section .bottom-section > div {
+  width: 45%;
+  float: left;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 7px;
+  margin-right: 15px;
+}
+/* line 1221, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealDashboard .featured-section .bottom-section > div:nth-child(even), .dashboard-main.dashboard-main .dealDashboard .featured-section .bottom-section > div:nth-child(even) {
+  margin-right: 0;
+}
+/* line 1224, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealDashboard .featured-section .bottom-section > div p, .dashboard-main.dashboard-main .dealDashboard .featured-section .bottom-section > div p {
+  display: inline-block;
+  position: relative;
+  top: -10px;
+  background-color: #ffffff;
+  padding: 0 10px;
+  margin-bottom: 0;
+}
+/* line 1232, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealDashboard .featured-section .bottom-section > div span, .dashboard-main.dashboard-main .dealDashboard .featured-section .bottom-section > div span {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 42px;
+}
+/* line 1239, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealDashboard .featured-section .bottom-section .activeDeals p, .dashboard-main.dashboard-main .dealDashboard .featured-section .bottom-section .activeDeals p {
+  font-size: 16px;
+}
+/* line 1246, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealDashboard .featured-section .marron-box .middle-section .icon-main, .dashboard-main.dashboard-main .dealDashboard .featured-section .marron-box .middle-section .icon-main {
+  border: 5px solid #b25b6d;
+}
+/* line 1251, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealDashboard .featured-section .marron-box .bottom-section > div, .dashboard-main.dashboard-main .dealDashboard .featured-section .marron-box .bottom-section > div {
+  border-color: #b25b6d;
+}
+/* line 1253, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealDashboard .featured-section .marron-box .bottom-section > div span, .dashboard-main.dashboard-main .dealDashboard .featured-section .marron-box .bottom-section > div span {
+  color: #b25b6d;
+}
+/* line 1261, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealDashboard .featured-section .teal-box .middle-section .icon-main, .dashboard-main.dashboard-main .dealDashboard .featured-section .teal-box .middle-section .icon-main {
+  border: 5px solid #58adbc;
+}
+/* line 1266, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealDashboard .featured-section .teal-box .bottom-section > div, .dashboard-main.dashboard-main .dealDashboard .featured-section .teal-box .bottom-section > div {
+  border-color: #58adbc;
+}
+/* line 1268, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealDashboard .featured-section .teal-box .bottom-section > div span, .dashboard-main.dashboard-main .dealDashboard .featured-section .teal-box .bottom-section > div span {
+  color: #58adbc;
+}
+/* line 1276, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealDashboard .featured-section .orange-box .middle-section .icon-main, .dashboard-main.dashboard-main .dealDashboard .featured-section .orange-box .middle-section .icon-main {
+  border: 5px solid #cb6234;
+}
+/* line 1281, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealDashboard .featured-section .orange-box .bottom-section > div, .dashboard-main.dashboard-main .dealDashboard .featured-section .orange-box .bottom-section > div {
+  border-color: #cb6234;
+}
+/* line 1283, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealDashboard .featured-section .orange-box .bottom-section > div span, .dashboard-main.dashboard-main .dealDashboard .featured-section .orange-box .bottom-section > div span {
+  color: #cb6234;
+}
+/* line 1291, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealsAnalytics, .dashboard-main.dashboard-main .dealsAnalytics {
+  color: #343434;
+  padding-bottom: 30px;
+}
+/* line 1295, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealsAnalytics .container .row, .dashboard-main.dashboard-main .dealsAnalytics .container .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* line 1299, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealsAnalytics .container .row > div, .dashboard-main.dashboard-main .dealsAnalytics .container .row > div {
+  width: 30%;
+  float: left;
+  margin-right: 5%;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+}
+/* line 1306, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealsAnalytics .container .row > div span, .dashboard-main.dashboard-main .dealsAnalytics .container .row > div span {
+  display: flex;
+  position: absolute;
+  left: -60px;
+  width: 137px;
+  height: 137px;
+  background-color: #b981e5;
+  border-radius: 50%;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+}
+/* line 1318, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealsAnalytics .container .row > div p, .dashboard-main.dashboard-main .dealsAnalytics .container .row > div p {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 16px;
+}
+/* line 1323, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealsAnalytics .container .row > div label, .dashboard-main.dashboard-main .dealsAnalytics .container .row > div label {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 42px;
+  color: #b981e5;
+}
+/* line 1331, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealsAnalytics .container .row > div:nth-child(even), .dashboard-main.dashboard-main .dealsAnalytics .container .row > div:nth-child(even) {
+  margin-right: 0;
+}
+/* line 1333, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealsAnalytics .container .row > div:nth-child(even) span, .dashboard-main.dashboard-main .dealsAnalytics .container .row > div:nth-child(even) span {
+  right: -60px;
+  left: auto;
+}
+/* line 1342, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealsAnalytics .totalViews .right-content, .dashboard-main.dashboard-main .dealsAnalytics .totalViews .right-content {
+  width: 80%;
+  float: right;
+}
+/* line 1348, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dealsAnalytics .totalClicks .right-content, .dashboard-main.dashboard-main .dealsAnalytics .totalClicks .right-content {
+  width: 80%;
+  float: left;
+}
+/* line 1355, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dimmerReviewMain .inner-content-main, .dashboard-main.dashboard-main .dimmerReviewMain .inner-content-main {
+  padding: 18px 15px;
+  margin-top: 0;
+}
+/* line 1359, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dimmerReviewMain .inner-content-main h2, .dashboard-main.dashboard-main .dimmerReviewMain .inner-content-main h2 {
+  color: #343434;
+  margin-top: 0;
+  margin-bottom: 18px;
+  text-transform: capitalize;
+}
+/* line 1365, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dimmerReviewMain .inner-content-main .reviews, .dashboard-main.dashboard-main .dimmerReviewMain .inner-content-main .reviews {
+  padding: 15px;
+  border: 1px solid #CCCCCC;
+  -webkit-border-radius: 7px;
+  -khtml-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  color: #343434;
+}
+/* line 1371, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dimmerReviewMain .inner-content-main .reviews h3, .dashboard-main.dashboard-main .dimmerReviewMain .inner-content-main .reviews h3 {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+/* line 1378, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dimmerReviewMain .inner-content-main .reviews p a, .dashboard-main.dashboard-main .dimmerReviewMain .inner-content-main .reviews p a {
+  text-decoration: underline;
+}
+/* line 1382, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dimmerReviewMain .inner-content-main .reviews i, .dashboard-main.dashboard-main .dimmerReviewMain .inner-content-main .reviews i {
+  color: #1976d2;
+}
+/* line 1386, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dimmerReviewMain .inner-content-main .reviews a i, .dashboard-main.dashboard-main .dimmerReviewMain .inner-content-main .reviews a i {
+  margin-right: 5px;
+}
+/* line 1391, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dimmerReviewMain .inner-content-main a.reply-link, .dashboard-main.dashboard-main .dimmerReviewMain .inner-content-main a.reply-link {
+  display: inline-block;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+/* line 1396, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .dimmerReviewMain .inner-content-main a.view-all, .dashboard-main.dashboard-main .dimmerReviewMain .inner-content-main a.view-all {
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: 600;
+}
+/* line 1404, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .faq-dashboard .inner-content-main, .dashboard-main.dashboard-main .faq-dashboard .inner-content-main {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #343434;
+  padding: 28px 0;
+}
+/* line 1410, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .faq-dashboard .inner-content-main h2, .dashboard-main.dashboard-main .faq-dashboard .inner-content-main h2 {
+  color: #343434;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  padding-left: 15px;
+  font-size: 18px;
+}
+/* line 1419, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .faq-dashboard .inner-content-main h4, .dashboard-main.dashboard-main .faq-dashboard .inner-content-main h4 {
+  cursor: pointer;
+  padding: 15px 15px;
+  background-color: #f2f2f2;
+  font-size: 16px;
+}
+/* line 1425, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .faq-dashboard .inner-content-main .panel-heading, .dashboard-main.dashboard-main .faq-dashboard .inner-content-main .panel-heading {
+  padding: 0;
+}
+/* line 1428, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .faq-dashboard .inner-content-main i.fa-caret-down, .dashboard-main.dashboard-main .faq-dashboard .inner-content-main i.fa-caret-down {
+  color: #1976d2;
+  font-size: 20px;
+}
+/* line 1432, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .faq-dashboard .inner-content-main .view-all, .dashboard-main.dashboard-main .faq-dashboard .inner-content-main .view-all {
+  color: #1976d2;
+  font-weight: 600;
+  display: inline-block;
+  float: right;
+}
+/* line 1438, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .faq-dashboard .inner-content-main .panel-default > .panel-heading, .dashboard-main.dashboard-main .faq-dashboard .inner-content-main .panel-default > .panel-heading {
+  -webkit-border-radius: 0px;
+  -khtml-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  border: 0 none;
+}
+/* line 1442, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .faq-dashboard .inner-content-main .panel-group, .dashboard-main.dashboard-main .faq-dashboard .inner-content-main .panel-group {
+  margin-bottom: 0;
+}
+/* line 1445, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .faq-dashboard .inner-content-main .panel-group .panel, .dashboard-main.dashboard-main .faq-dashboard .inner-content-main .panel-group .panel {
+  -webkit-border-radius: 0px;
+  -khtml-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
+  margin-top: 0;
+}
+/* line 1452, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .walletHistory .inner-content-main, .dashboard-main.dashboard-main .walletHistory .inner-content-main {
+  padding: 15px 15px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #343434;
+}
+/* line 1458, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .walletHistory .inner-content-main .text-center, .dashboard-main.dashboard-main .walletHistory .inner-content-main .text-center {
+  margin-top: -70px;
+}
+/* line 1461, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .walletHistory .inner-content-main .wallet-balance, .dashboard-main.dashboard-main .walletHistory .inner-content-main .wallet-balance {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 30px 20px;
+  -webkit-border-radius: 7px;
+  -khtml-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  background-color: #ffffff;
+}
+/* line 1467, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .walletHistory .inner-content-main .wallet-balance p, .dashboard-main.dashboard-main .walletHistory .inner-content-main .wallet-balance p {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+  padding-left: 5px;
+}
+/* line 1472, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .walletHistory .inner-content-main .wallet-balance p span, .dashboard-main.dashboard-main .walletHistory .inner-content-main .wallet-balance p span {
+  color: #1976d2;
+  font-size: 22px;
+}
+/* line 1475, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .walletHistory .inner-content-main .wallet-balance p span i, .dashboard-main.dashboard-main .walletHistory .inner-content-main .wallet-balance p span i {
+  margin-right: 5px;
+}
+/* line 1484, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageProfileMain.dashboard-main .reports-data-main, .dashboard-main.dashboard-main .reports-data-main {
+  border: 1px solid #ccc;
+  border-radius: 9px;
+  margin-top: 70px;
+  padding: 0;
+}
+
+/* line 1494, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#createUser .modal-content {
+  -webkit-border-radius: 12px;
+  -khtml-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  border-radius: 12px;
+  background-image: url(/assets/createUserBackground-fd29d5469e969ec02e0e3adeaf5002fab5fd07daedebf6dbbe0b6ef5a6cfad5e.png);
+  background-repeat: no-repeat;
+  background-position: 0 -195px;
+}
+/* line 1500, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#createUser .modal-body {
+  padding-bottom: 0;
+  background-color: #ffffff;
+  margin-top: 105px;
+}
+/* line 1504, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#createUser .modal-body p {
+  text-align: center;
+}
+/* line 1507, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#createUser .modal-body .userCircle {
+  width: 150px;
+  height: 150px;
+  -webkit-border-radius: 50%;
+  -khtml-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  margin: -90px auto 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #31c5e0;
+}
+/* line 1517, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#createUser .modal-body .form-inner {
+  width: 95%;
+  margin: 30px auto;
+}
+/* line 1522, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#createUser .modal-footer {
+  padding-bottom: 30px;
+  padding-top: 0;
+}
+/* line 1525, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#createUser .modal-footer .btn {
+  padding: 15px 0;
+  text-align: center;
+  width: 200px;
+}
+
+/* line 1537, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.navbar-default {
+  z-index: 11;
+}
+
+/* line 1540, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dropdown-menu {
+  z-index: 999999;
+}
+
+/* line 1543, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.manageDealsData .table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #ffffff;
+}
+
+/* line 1547, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  background-color: #ffffff;
+  color: #1976d2;
+}
+
+/* line 1551, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dropdown-menu {
+  padding: 0;
+}
+/* line 1554, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dropdown-menu > li > a {
+  padding: 15px 10px;
+  border-bottom: 1px solid #ccc;
+}
+/* line 1559, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dropdown-menu > li:first-child a {
+  border-right: 0 none !important;
+}
+
+/* line 1565, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+a.submit-btn:hover {
+  color: #ffffff;
+}
+
+/* line 1568, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.reports-data-main .table > thead > tr > th {
+  color: #2c2f32;
+  font-weight: 600;
+}
+
+/* line 1572, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.breadcrumb {
+  padding: 25px 0;
+  margin-bottom: 0;
+  text-align: center;
+  background-color: transparent;
+}
+/* line 1577, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.breadcrumb li {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+}
+/* line 1581, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.breadcrumb li a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: normal;
+}
+/* line 1585, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.breadcrumb li a:hover {
+  color: #00fff0;
+}
+/* line 1589, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.breadcrumb li.active {
+  color: #ffffff;
+}
+/* line 1591, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.breadcrumb li.active:before {
+  color: #ffffff;
+}
+/* line 1595, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.breadcrumb li:before {
+  color: #ffffff !important;
+}
+
+/* line 1601, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.btn-default:focus, .btn-default.focus {
+  color: #ffffff;
+}
+
+/* line 1604, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.nav-tabs > li > a {
+  color: #2c2f32;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* line 1610, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.nav-tabs > li.active > a {
+  font-weight: 600;
+}
+
+/* line 1613, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f2f2f2;
+}
+
+/* line 1616, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+/* line 1621, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.modal-footer {
+  border: 0 none;
+  text-align: center;
+}
+
+/* line 1625, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.modal-header {
+  border: 0 none;
+}
+
+/* line 1628, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.close {
+  color: #000;
+  opacity: .5;
+  font-weight: normal;
+  font-size: 28px;
+  text-shadow: none;
+  background: transparent;
+  box-shadow: none;
+  border: 0 none;
+  float: right;
+}
+
+/* line 1639, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.table > tbody > tr > td {
+  border-top: 0 none;
+}
+
+/* line 1642, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+  padding: 15px 8px;
+}
+
+/* line 1651, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.nav-tabs > li.active > a {
+  border-width: 0;
+  border: none;
+  color: #4285f4 !important;
+  background: transparent;
+}
+/* line 1656, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.nav-tabs > li.active > a:focus {
+  border-width: 0;
+}
+/* line 1659, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.nav-tabs > li.active > a:hover {
+  border-width: 0;
+}
+/* line 1663, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.nav-tabs > li.active > a::after {
+  transform: scale(1);
+}
+/* line 1667, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.nav-tabs > li > a {
+  border: none;
+  color: #666;
+  padding: 15px 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-weight: 600;
+}
+/* line 1673, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.nav-tabs > li > a:hover {
+  border: none;
+  color: #4285f4 !important;
+  background: transparent;
+}
+/* line 1679, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.nav-tabs > li > a::after {
+  content: "";
+  background: #4285f4;
+  height: 4px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -1px;
+  transition: all 250ms ease 0s;
+  transform: scale(0);
+}
+/* line 1692, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.nav-tabs > li:hover > a::after {
+  transform: scale(1);
+}
+
+/* line 1697, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.tab-pane {
+  padding: 15px 0;
+}
+
+/* line 1700, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.tab-content {
+  padding: 20px;
+  color: #343434;
+  padding-left: 35px;
+}
+
+/* line 1708, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.featured-box {
+  position: relative;
+  height: 288px;
+  -webkit-border-radius: 7px;
+  -khtml-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+}
+/* line 1712, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.featured-box .top-section, .featured-box .bottom-section {
+  height: 27.5%;
+}
+/* line 1715, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.featured-box .middle-section {
+  height: 45%;
+}
+/* line 1717, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.featured-box .middle-section .icon-main {
+  display: flex;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  align-items: center;
+  margin: 0 auto;
+  top: -45%;
+  position: relative;
+}
+/* line 1727, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.featured-box .middle-section .icon-main i {
+  margin: 0 auto;
+}
+/* line 1731, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.featured-box .middle-section p {
+  text-align: center;
+  color: #ffffff;
+  margin-top: -40px;
+  font-weight: 600;
+  font-size: 18px;
+}
+/* line 1739, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.featured-box .top-section {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+/* line 1743, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.featured-box .bottom-section {
+  background-color: #ffffff;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+/* line 1751, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.featured-box .bottom-section a {
+  color: #CCCCCC;
+}
+/* line 1754, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.featured-box .bottom-section .roundedCircle {
+  background-image: url(/assets/circle-142cde777db37fb7869f525349bbc9cbc5cd08174972a535777f2d3265d04cbe.png);
+  background-repeat: repeat;
+  height: 10px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: -5px;
+}
+/* line 1764, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.featured-box.marron-box {
+  background-color: #b25b6d;
+}
+/* line 1766, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.featured-box.marron-box .top-section {
+  background-color: #cc7587;
+}
+/* line 1770, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.featured-box.teal-box {
+  background-color: #58adbc;
+}
+/* line 1772, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.featured-box.teal-box .top-section {
+  background-color: #75bfcc;
+}
+/* line 1776, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.featured-box.orange-box {
+  background-color: #cb6234;
+}
+/* line 1778, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.featured-box.orange-box .top-section {
+  background-color: #d57d56;
+}
+/* line 1782, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.featured-box.green-box {
+  background-color: #76a837;
+}
+/* line 1784, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.featured-box.green-box .top-section {
+  background-color: #9ac465;
+}
+
+/* line 1791, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+::-webkit-input-placeholder {
+  font-size: 14px !important;
+}
+
+/* line 1795, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 14px !important;
+}
+
+/* line 1799, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 14px !important;
+}
+
+/* line 1803, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+:-ms-input-placeholder {
+  font-size: 14px !important;
+}
+
+/* line 1810, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.editManageDealForm ::-webkit-input-placeholder {
+  color: #343434;
+}
+
+/* line 1814, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.editManageDealForm :-moz-placeholder {
+  /* Firefox 18- */
+  color: #343434;
+}
+
+/* line 1818, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.editManageDealForm ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #343434;
+}
+
+/* line 1822, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.editManageDealForm :-ms-input-placeholder {
+  color: #343434;
+}
+
+/* line 1825, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#editPersonalInfo ::-webkit-input-placeholder {
+  color: #343434;
+}
+
+/* line 1829, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#editPersonalInfo :-moz-placeholder {
+  /* Firefox 18- */
+  color: #343434;
+}
+
+/* line 1833, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#editPersonalInfo ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #343434;
+}
+
+/* line 1837, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#editPersonalInfo :-ms-input-placeholder {
+  color: #343434;
+}
+
+/* line 1840, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:active,
+input:-webkit-autofill:focus {
+  background-color: #FFFFFF !important;
+  color: #555 !important;
+  -webkit-box-shadow: 0 0 0 1000px #ffffff inset !important;
+  -webkit-text-fill-color: #555555 !important;
+  border-bottom: 1px solid #ccc !important;
+}
+
+/* line 1852, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.control-group {
+  width: 45%;
+  position: relative;
+}
+/* line 1855, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.control-group i.fa-calendar {
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+}
+
+/* line 1864, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dropdownjs {
+  position: relative;
+}
+
+/* line 1867, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dropdownjs * {
+  box-sizing: border-box;
+}
+
+/* line 1870, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dropdownjs > input {
+  width: 100%;
+  padding-right: 30px;
+  text-overflow: ellipsis;
+}
+
+/* line 1875, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dropdownjs > input.focus ~ ul {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  width: 100%;
+}
+
+/* line 1881, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dropdownjs > ul {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  min-width: 200px;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  z-index: 10000;
+}
+
+/* line 1891, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dropdownjs > ul[placement=top-left] {
+  -webkit-transform-origin: bottom left;
+  -ms-transform-origin: bottom left;
+  transform-origin: bottom left;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 1898, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dropdownjs > ul[placement=bottom-left] {
+  -webkit-transform-origin: top left;
+  -ms-transform-origin: top left;
+  transform-origin: top left;
+  top: 0;
+  left: 0;
+}
+
+/* line 1905, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dropdownjs > ul > li {
+  list-style: none;
+  padding: 10px 20px;
+}
+
+/* line 1909, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dropdownjs > ul > li.dropdownjs-add {
+  padding: 0;
+}
+
+/* line 1912, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dropdownjs > ul > li.dropdownjs-add > input {
+  border: 0;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+/* Theme */
+/* line 1919, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dropdownjs > input[readonly] {
+  cursor: pointer;
+}
+
+/* line 1922, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+select[data-dropdownjs][disabled] + .dropdownjs > input[readonly] {
+  cursor: default;
+}
+
+/* line 1925, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dropdownjs > ul {
+  background: #FFF;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 6px rgba(0, 0, 0, 0.12);
+  -webkit-transition: -webkit-transform 0.2s ease-out;
+  transition: transform 0.2s ease-out;
+  overflow: auto;
+}
+
+/* line 1932, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dropdownjs > ul > li {
+  cursor: pointer;
+  word-wrap: break-word;
+  font-size: 12px;
+  padding: 10px 10px;
+}
+
+/* line 1939, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dropdownjs > ul > li.selected,
+.dropdownjs > ul > li:active {
+  background-color: #1976d2;
+  color: #ffffff;
+}
+
+/* line 1944, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dropdownjs > ul > li:focus {
+  outline: 0;
+  outline: 1px solid #d4d4d4;
+}
+
+/* line 1948, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dropdownjs > ul > li > .close:before {
+  content: "\00d7";
+  display: block;
+  position: absolute;
+  right: 15px;
+  float: right;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .6;
+}
+
+/* line 1961, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dropdownjs > ul > li:h > .close:hover:before {
+  opacity: .9;
+}
+
+/* line 1966, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.nav > li {
+  display: inline-block;
+}
+
+/* line 1970, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.is-fileinput input[type=file] {
+  opacity: 1;
+  position: static;
+  border: 0 none;
+  background-image: none;
+}
+
+/* line 1977, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.panel-body {
+  padding: 15px;
+}
+
+/* line 1980, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -webkit-transition-duration: .35s;
+  -o-transition-duration: .35s;
+  transition-duration: .35s;
+  -webkit-transition-property: height, visibility;
+  -o-transition-property: height, visibility;
+  transition-property: height, visibility;
+}
+
+/* line 1994, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+label {
+  display: inline-block;
+}
+
+/* line 1997, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.download-wallet-history {
+  padding-right: 35px;
+  display: inline-block;
+  padding-top: 15px;
+}
+/* line 2001, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.download-wallet-history i {
+  margin-right: 5px;
+}
+
+/* line 2006, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.content-wrap .inner-block .tab-content {
+  padding: 20px 0px;
+}
+
+/* line 2010, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.notifications-group .date-heading {
+  padding: 10px 35px;
+}
+/* line 2015, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.notifications-group .inner-content div {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 35px;
+}
+/* line 2019, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.notifications-group .inner-content .odd-section {
+  background-color: #ffffff;
+}
+/* line 2023, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.notifications-group h4, .notifications-group h3, .notifications-group .date {
+  margin: 10px 0;
+  font-weight: 600;
+  font-size: 18px;
+}
+/* line 2028, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.notifications-group .inner-content {
+  background-color: #f7f7f7;
+}
+/* line 2032, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.notifications-group time {
+  float: right;
+}
+
+/* line 2039, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.content-wrap .full-width-banner .row {
+  margin: 0;
+}
+
+/* line 2044, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: transparent;
+}
+
+/* line 2047, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.table-striped > tbody > tr:nth-of-type(even) {
+  background-color: #f2f2f2;
+}
+
+/* line 2051, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.inner-block .nav-tabs {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 15px 0;
+}
+/* line 2055, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.inner-block .panel-body {
+  padding: 0;
+}
+
+/* line 2059, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.table > thead > tr > th {
+  border-bottom-width: 1px;
+}
+
+/* line 2062, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+header.panel-heading {
+  display: none;
+}
+
+/* line 2065, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.nav-tabs > li > a {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 2070, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+  padding: 15px 20px;
+}
+
+/* line 2073, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.nav-tabs > li {
+  margin-right: 10px;
+}
+
+/* line 2076, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dataTables_length, .dataTables_info {
+  padding-left: 30px;
+}
+/* line 2078, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dataTables_length label, .dataTables_info label {
+  margin-bottom: 0;
+}
+
+/* line 2082, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dataTables_filter, .dataTables_paginate {
+  padding-right: 30px;
+}
+/* line 2084, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dataTables_filter label, .dataTables_paginate label {
+  position: relative;
+}
+/* line 2087, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dataTables_filter input[type="search"], .dataTables_paginate input[type="search"] {
+  -webkit-border-radius: 7px;
+  -khtml-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+}
+/* line 2090, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dataTables_filter .search-btn, .dataTables_paginate .search-btn {
+  position: absolute;
+  right: 0;
+  padding: 0 15px;
+  height: 44px;
+  border-radius: 0px;
+}
+
+/* line 2098, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dataTables_wrapper {
+  padding-bottom: 20px;
+}
+
+/* line 2101, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dataTableSearch {
+  float: right;
+  margin-bottom: 25px;
+  display: block;
+}
+
+/* line 2107, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.deals-with-topics {
+  height: 200px;
+}
+
+/* line 2110, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dropdown-menu {
+  margin: 0;
+}
+
+/* line 2113, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dataTables_filter .form-group.form-group-sm {
+  margin: 6px 0 0 0;
+}
+
+/* line 2116, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dataTables_length .form-group.form-group-sm {
+  margin: 0 0 0 0;
+}
+
+/* line 2119, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.custom-form.form-horizontal .form-group {
+  margin: 0;
+}
+
+/* line 2122, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.edit_merchant .form-group {
+  margin-bottom: 20px;
+}
+
+/* line 2125, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.form-control:focus {
+  border-color: transparent;
+  box-shadow: none;
+  outline: 0;
+}
+
+/* line 2130, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dataTables_length {
+  margin-top: 10px;
+}
+
+/* line 2133, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dataTables_filter .search-btn, .dataTables_paginate .search-btn {
+  margin-top: 7px;
+}
+
+/* line 2136, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main .dataTables_filter .search-btn, .create-deal-main .dataTables_paginate .search-btn {
+  margin-top: 0;
+}
+
+/* line 2139, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#user_active {
+  display: inline-block;
+  padding: 0;
+  height: 15px;
+  width: 15px;
+  margin-left: 10px;
+  width: auto;
+}
+
+/* line 2147, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.approve-label {
+  vertical-align: middle;
+}
+
+/* line 2150, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.create-deal-main #merchantHubReports_filter.dataTables_filter .search-btn {
+  margin-top: 7px;
+}
+
+/* line 2154, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.admin-reports-main .table > thead > tr > th, .admin-reports-main .table > tbody > tr > th, .admin-reports-main .table > tfoot > tr > th, .admin-reports-main .table > thead > tr > td, .admin-reports-main .table > tbody > tr > td, .admin-reports-main .table > tfoot > tr > td {
+  padding: 15px 10px;
+  font-size: 13px;
+}
+
+/* line 2158, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.admin-dataTable .dataTables_length, .admin-dataTable .dataTables_info {
+  padding-left: 20px;
+}
+
+/* line 2161, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.admin-dataTable .dataTables_filter, .admin-dataTable .dataTables_paginate {
+  padding-right: 20px;
+}
+
+/* line 2165, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.viewAllTransaction {
+  padding-right: 35px;
+  display: block;
+  padding-top: 0;
+  float: right;
+  margin-bottom: 20px;
+}
+
+/* line 2172, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.form-error, #registrationErrors, #signUpFormErrors, label.error {
+  color: #ff0000 !important;
+}
+
+/* line 2175, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+label.error {
+  margin-bottom: 0 !important;
+  font-size: 10px !important;
+}
+
+/* line 2179, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+input[type="submit"] {
+  vertical-align: middle;
+}
+
+/* line 2182, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dataTables_length .dropdownjs {
+  display: inline-block;
+  margin: 0 15px;
+  width: 50%;
+}
+
+/* line 2187, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dataTables_length .dropdownjs > input[readonly] {
+  font-size: 14px;
+}
+
+/* line 2190, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dropdownjs::after {
+  bottom: 10px;
+  font-size: 18px;
+}
+
+/* line 2194, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#registrationErrors {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  font-size: 10px;
+}
+
+/* line 2200, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#signUpFormErrors {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+
+/* line 2206, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+td.day {
+  cursor: pointer;
+}
+
+/* line 2209, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+td.disabled {
+  color: #ccc;
+  cursor: default;
+}
+
+/* line 2214, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.description .panel-default {
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+}
+/* line 2218, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.description .panel-body {
+  padding: 15px;
+  background-color: #f5f5f5;
+}
+/* line 2222, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.description i {
+  padding-right: 15px;
+  padding-top: 5px;
+}
+/* line 2226, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.description span {
+  vertical-align: middle;
+}
+/* line 2230, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.description .panel-heading {
+  padding: 10px 15px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  color: #333;
+  background-color: #f5f5f5;
+  border-color: #ddd;
+  cursor: pointer;
+}
+/* line 2239, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.description .panel-heading > .dropdown .dropdown-toggle {
+  color: inherit;
+}
+/* line 2242, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.description .panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: inherit;
+}
+/* line 2248, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.description .panel-title > a,
+.description .panel-title > small,
+.description .panel-title > .small,
+.description .panel-title > small > a,
+.description .panel-title > .small > a {
+  color: inherit;
+}
+/* line 2255, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.description .panel-footer {
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+/* line 2262, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.description .panel > .list-group,
+.description .panel > .panel-collapse > .list-group {
+  margin-bottom: 0;
+}
+/* line 2266, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.description .panel > .list-group .list-group-item,
+.description .panel > .panel-collapse > .list-group .list-group-item {
+  border-width: 1px 0;
+  border-radius: 0;
+}
+/* line 2271, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.description .panel > .list-group:first-child .list-group-item:first-child,
+.description .panel > .panel-collapse > .list-group:first-child .list-group-item:first-child {
+  border-top: 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+/* line 2277, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.description .panel > .list-group:last-child .list-group-item:last-child,
+.description .panel > .panel-collapse > .list-group:last-child .list-group-item:last-child {
+  border-bottom: 0;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+/* line 2283, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.description .panel > .panel-heading + .panel-collapse > .list-group .list-group-item:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+/* line 2287, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.description .panel-heading + .list-group .list-group-item:first-child {
+  border-top-width: 0;
+}
+/* line 2290, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.description .list-group + .panel-footer {
+  border-top-width: 0;
+}
+
+/* line 2296, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.contact-main .inner-content-main {
+  width: 50%;
+  margin: -155px auto 0;
+}
+
+/* line 2301, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+p.no-margin-bottom + p {
+  margin-bottom: 20px;
+}
+
+/* line 2304, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.sub-page-banner {
+  height: 240px;
+  background-image: url(/assets/Banner_Image-197b0556e6d2fb0aabe80b4c7d2ce57fb88a68ac9b443b39d88b50e730b6b788.jpg);
+  position: relative;
+  width: 100%;
+  background-position: center center;
+}
+/* line 2310, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.sub-page-banner .transparent-layer {
+  height: 100%;
+}
+
+/* line 2315, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.not-found-main .description {
+  color: #333;
+}
+/* line 2317, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.not-found-main .description i {
+  padding-top: 0;
+}
+/* line 2321, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.not-found-main img {
+  display: inline-block;
+  margin-top: 10px;
+}
+/* line 2325, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.not-found-main p {
+  color: #333;
+  font-size: 22px;
+}
+/* line 2329, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.not-found-main span {
+  font-size: 16px;
+}
+
+/* line 2334, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 99999;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20%;
+  display: none;
+}
+/* line 2347, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.loader i {
+  color: #ffffff;
+}
+
+/* line 2351, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#spotErrors {
+  color: #ff0000;
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* line 2356, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.datepicker .prev, .datepicker .next {
+  cursor: pointer;
+}
+
+/* line 2359, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#amount-error {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 100%;
+}
+
+/* line 2367, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dataTables_length .form-control {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin-left: 5px;
+}
+/* line 2372, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.dataTables_length i {
+  margin-right: 10px;
+  margin-left: -10px;
+}
+
+/* line 2379, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.inner-content-main .dataTables_filter label, .content-wrap .dataTables_filter label {
+  width: 100%;
+}
+/* line 2382, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.inner-content-main .dataTables_filter input[type="search"], .content-wrap .dataTables_filter input[type="search"] {
+  width: 100%;
+  margin-left: 0px;
+}
+
+/* line 2392, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.form-group .select-arrow {
+  position: absolute;
+  top: 45px;
+  right: 1%;
+}
+
+/* line 2398, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+textarea.form-control {
+  height: auto;
+}
+
+/* line 2401, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.forgotPassword {
+  color: #aaaaaa;
+  position: absolute;
+  font-size: 11px;
+  top: 0;
+  right: 19%;
+}
+/* line 2407, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.forgotPassword:hover {
+  color: #1976d2;
+}
+
+/* line 2412, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.new_payout_group_amount .datepicker + .error, .edit_payout_group_amount .datepicker + .error {
+  position: absolute;
+  bottom: -15px;
+  left: 0px;
+}
+
+/* line 2418, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.createStoreLink {
+  color: #1976d2;
+  background-color: #fff;
+  padding: 10px 50px;
+  margin-bottom: 15px;
+  display: inline-block;
+  -webkit-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 2425, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.createStoreLink span {
+  padding: 0 20px;
+  vertical-align: middle;
+  font-weight: 600;
+}
+
+/* line 2432, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.hidden-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: none;
+}
+
+/* line 2440, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#merchantImageUpload h4 {
+  color: #343434;
+}
+/* line 2443, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#merchantImageUpload .is-fileinput input[type=file] {
+  color: #343434;
+}
+
+/* line 2448, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.alert {
+  margin-bottom: 0px;
+  width: 100%;
+  z-index: 99;
+  position: absolute;
+}
+
+/* line 2455, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.alert-dismissible .close {
+  top: -10px;
+}
+
+/* line 2459, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#tag_list + label sup {
+  display: none;
+}
+
+/* line 2465, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#offer_details_form .is-fileinput label, .new_topic .is-fileinput label {
+  color: #1976d2;
+  font-weight: bold;
+}
+/* line 2470, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#offer_details_form .is-fileinput.is-empty label, .new_topic .is-fileinput.is-empty label {
+  color: #999;
+  font-weight: normal;
+}
+
+/* line 2479, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.form-group label {
+  font-size: 0.75em;
+}
+
+/* line 2483, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.price_loader {
+  display: none;
+}
+
+/* line 2486, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.loader-small {
+  margin: 0px auto;
+  font-size: 10px;
+  position: relative;
+  text-indent: -9999em;
+  border-top: 2px solid rgba(25, 118, 210, 0.9);
+  border-right: 2px solid rgba(25, 118, 210, 0.9);
+  border-bottom: 2px solid rgba(25, 118, 210, 0.9);
+  border-left: 2px solid #fff;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load8 0.5s infinite linear;
+  animation: load8 1.1s infinite linear;
+}
+
+/* line 2501, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.loader-small,
+.loader-small:after {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/* line 2528, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.texteditor-main label {
+  color: #1976d2;
+  font-weight: bold;
+  font-size: 0.75em;
+}
+/* line 2534, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.texteditor-main.is-empty label {
+  line-height: 1.42857143;
+  color: #999;
+  font-weight: 400;
+}
+
+/* line 2542, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+div.dataTables_wrapper div.dataTables_processing {
+  padding: 10px 0;
+  background-color: #484646;
+  color: #ffffff;
+  border-radius: 9px;
+  box-shadow: 1px 4px 30px #999;
+}
+
+/* line 2549, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#merchant_admin_list {
+  table-layout: fixed;
+}
+
+/* line 2552, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.merchantShowMain p {
+  word-wrap: break-word;
+}
+
+/* line 2555, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.width50 {
+  width: 50%;
+}
+
+/* line 2559, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.is-fileinput img, .merchants-show-main img {
+  max-height: 300px;
+}
+
+/* line 2564, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.faq-main ul {
+  padding-left: 20px;
+}
+/* line 2566, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.faq-main ul li {
+  list-style: disc;
+  margin-bottom: 5px;
+}
+/* line 2571, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.faq-main h4 + ul, .faq-main h4 + p {
+  margin-top: 5px;
+}
+/* line 2575, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.faq-main h3 b, .faq-main h4 b {
+  text-transform: capitalize;
+}
+
+/* line 2581, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.invoice-container {
+  color: #000;
+  font-size: 14px;
+}
+
+/* line 2585, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.font-times-new-roman {
+  font-family: 'Tinos', serif;
+}
+
+/* line 2588, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#invoice-table {
+  border-collapse: collapse;
+  width: 85%;
+}
+
+/* line 2592, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.invoice-container .note-section {
+  width: 85%;
+}
+
+/* line 2595, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#invoice-table th, #invoice-table .total_amount {
+  text-align: center;
+  border: 1px solid #000;
+  padding: 3px;
+  font-size: 14px;
+}
+
+/* line 2601, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#invoice-table td, #invoice-table th {
+  vertical-align: top;
+  font-size: 14px;
+}
+
+/* line 2605, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+#invoice-table td {
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  padding: 3px;
+  color: #000;
+}
+
+/* line 2611, /Users/desidime/workspace/ror/merchant_hub/app/assets/stylesheets/sass/style.scss.erb */
+.invoice-container .footer-text {
+  color: #888;
+  position: absolute;
+  bottom: 5px;
+}
